@@ -1,8 +1,11 @@
 package com.itheima.pojo;
 
+import java.util.Date;
+
 public class User {
     private String name;
     private int age;
+    private Date birthday;
 
     public User(String name, int age) {
         this.name = name;
